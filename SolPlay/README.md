@@ -5,7 +5,7 @@ Also this is a universal program, so it works with any application (but intended
 # How does it work?
 When the program is being run, temporary hotkeys will be created that enable the user to execute functions when the program is not the active window; you can use the hotkeys while being in-game.  
 # How to Run
-Download the ZIP file, Extract, then directly run the executable.  
+Download the ZIP/RAR file, Extract, then directly run the executable.  
 Note: Incase the program does not work correctly, then run as Administrator.
 # How to use
 [F5] : Turn off wifi  
