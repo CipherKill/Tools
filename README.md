@@ -1,3 +1,3 @@
 # Tool
-More and better tools coming sool...\n
+More and better tools coming sool...  
 (idk what to write here yet)
