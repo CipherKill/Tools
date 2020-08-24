@@ -4,8 +4,7 @@ It is a tool that is made specifically for GTA online players to toggle WiFi bet
 process automatically.  
 Also this is a universal program, so it works with any application (but intended for GTA).  
 # How does it work?
-When the program is being run, temporary hotkeys will be created that enable the user to execute functions when the program is not the active window; you can use the hotkeys  
-while being in-game.  
+When the program is being run, temporary hotkeys will be created that enable the user to execute functions when the program is not the active window; you can use the hotkeys while being in-game.  
 # How to Run
 Download the ZIP file, Extract, then directly run the executable.  
 Note: Incase the program does not work correctly, then run as Administrator.
