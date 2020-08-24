@@ -7,7 +7,7 @@
 using namespace std;
 string wifiname = "";
 DWORD pid;
-int e;
+int e;												//for catch statements
 
 int colorset(int i) {
 	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), i);
