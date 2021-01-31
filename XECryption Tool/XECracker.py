@@ -1,5 +1,5 @@
 import sys
-
+#don't judge, i just simply made one quickly
 if(len(sys.argv)):
     fname=str(sys.argv[1])
     fkey=str(sys.argv[2])
