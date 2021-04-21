@@ -3,7 +3,7 @@ It is a simple bash based program that acts like nmap for non rooted android mob
 
 ## Instructions
 To run the porgram you'll need the TERMUX app which can be found in the play store.  
-On downloading...  
+in TERMUX app...  
 1- Run "termux-setup-storage" and allow permissions  
 2- Use commands like (same as bash) to find the nscan file downloaded  
  - "ls" to list files in current directory  
@@ -24,6 +24,8 @@ Here we are tell the program to scan all the ip addresses from 192.168.1.100 to 
  - ip/gateway address : refers to your ip-address or router (you can find this by using the `ifconfig` in TERMUX and observing the inet value for wlan0 adapter)  
  - lower limit        : this takes an integer value that tells the program the lowest address to start from. (includes this number)  
  - upper limit        : this takes an integer calue that tells the porgram the highest adress to end at. (includes this number)  
+
+run `exit` command to exit TERMUX
   
 ### Thank you
 Cipherkill out! *peace emoji*
