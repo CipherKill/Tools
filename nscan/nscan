@@ -1,0 +1,48 @@
+#!/bin/bash
+
+#color schemes
+RED=$'\e[1;31m'
+CYAN=$'\e[1;32m'
+ORANGE=$'\e[1;33m'
+BLUE=$'\e[1;34m'
+PURPLE=$'\e[1;35m'
+white=$'\e[1;37m'
+
+#arg inputs
+gateway=$1
+llimit=$2
+ulimit=$3
+
+#correction code
+if [ $ulimit -gt 255  ]
+then
+	$ulimit=255
+fi
+
+#program intro
+echo ''
+echo "***** NSCAN [/24] by CipherKill *****"
+echo "->Network mapper for non-rooted android"
+echo ''
+gateway=${gateway:0:10}
+echo $PURPLE"Generating address combination..."
+sleep 2
+echo ...
+sleep 2
+#echo $gateway
+echo $PURPLE"Possible address generated..."
+sleep 2
+echo ''
+
+#processign part(logic)
+count=0 
+for((en=$llimit;en<=$ulimit;en++))
+do
+	flag=$(ping -c 1 $gateway$en | grep "bytes" | wc -l)
+	if [ $flag -gt 1 ]
+	then
+		((count=count+1))
+		echo "$white[!]$gateway$en device found"
+	fi
+done
+echo "$white[*]FOUND $((count+1)) DEVICES includes router $1"
