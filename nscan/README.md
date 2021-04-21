@@ -17,12 +17,12 @@ so you can run the program using
 `./nscan <ip/gateway address> <lower limit> <upper limit>`  
 Example:  
   `./nscan 192.168.1.0 100 255`  
-  Here we are telling the program to scan all the ip addresses from 192.168.1.100 to 192.168.1.255.  
+Here we are telling the program to scan all the ip addresses from 192.168.1.100 to 192.168.1.255.  
 
 ## Extra notes
-<ip/gateway address> : refers to your ip-address or router (you can find this by using the `ifconfig` in TERMUX and observing the inet value for wlan0 adapter)  
-<lower limit>        : this takes an integer value that tells the program the lowest address to start from. (includes this number)  
-<upper limit>        : this takes an integer calue that tells the porgram the highest adress to end at. (includes this number)  
+ <ip/gateway address> : refers to your ip-address or router (you can find this by using the `ifconfig` in TERMUX and observing the inet value for wlan0 adapter)  
+ <lower limit>        : this takes an integer value that tells the program the lowest address to start from. (includes this number)  
+ <upper limit>        : this takes an integer calue that tells the porgram the highest adress to end at. (includes this number)  
   
 ### Thank you
 Cipherkill out! *peace emoji*
