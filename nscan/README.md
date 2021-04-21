@@ -25,7 +25,8 @@ Here we are tell the program to scan all the ip addresses from 192.168.1.100 to 
  - lower limit        : this takes an integer value that tells the program the lowest address to start from. (includes this number)  
  - upper limit        : this takes an integer calue that tells the porgram the highest adress to end at. (includes this number)  
 
-run `exit` command to exit TERMUX
+run `exit` command to exit TERMUX.  
+fin
   
 ### Thank you
 Cipherkill out! *peace emoji*
