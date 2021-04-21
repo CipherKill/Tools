@@ -9,8 +9,8 @@ On downloading...
           -> "ls" to list files in current directory  
           -> "cd" to change directory  
           -> "cp" or "mv" to copy or move files across directories  
-3- Being in the same directory as the 'nscan' program. Run `bash nscan <ip/gateway address> <lower limit> <upper limit>`  
-Note: I would recomment using `chmod +x nscan` so you can run the program using `./nscan <ip/gateway address> <lower limit> <upper limit>`  
+3- Being in the same directory as the 'nscan' program. Run  `bash nscan <ip/gateway address> <lower limit> <upper limit>`  
+Note: I would recomment using  `chmod +x nscan`  so you can run the program using  `./nscan <ip/gateway address> <lower limit> <upper limit>`  
 Example:  
   `./nscan 192.168.1.0 100 255`  
   Here we are telling the program to scan all the ip addresses from 192.168.1.100 to 192.168.1.255.  
